@@ -56,4 +56,7 @@ e
 > -    dotnet run        - para rodar o projeto
 
 Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+
 Abra o endereço http://localhost:5000/api/values no browser e veja a aplicação web rodando.
+Pressione Ctrl+C para parar o servidor Web sempre que necessário.

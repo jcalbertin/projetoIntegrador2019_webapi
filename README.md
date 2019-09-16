@@ -72,7 +72,7 @@ Pressione Ctrl+C para parar o servidor Web sempre que necessário.
     - AlunoService.cs, métodos de mainpulação de dados de Alunos
     - ITurmaService.cs, interface para serviços de DB de Turma
     - TurmaService.cs, métodos de manipulaçào de dados de Turmas
-    - executoar: dotnet build
+    - executar: dotnet build
 
 #### (Aula 4 - EAD) Criação de Controladores e configuração de Injestão de Depências(DI).
 - Criar pasta Controlles; nelas adicionar os arquivos:
@@ -82,12 +82,11 @@ Pressione Ctrl+C para parar o servidor Web sempre que necessário.
 - Modificar Startup.cs, conforme o repositorio para adicionar as configurações de DI e json
 - Executar: dotnet build
 
-#### (Aula 5 - EAD) Fazer o teste com o Postman
 - Executar:
     dotnet run
 
-#### (Aula 6 - EAD) Acomopanhar teste usando o postman
-- A collection.json do postman pode ser importada na ferramente, com os mesmos já gravados
+#### (Aula 5 - EAD) Acompanhar teste usando o postman
+- A collection.json do postman pode ser importada na ferramenta, com os mesmos já gravados
 - Experimente alterá-los e veja as respostas do serviço e no banco
 
 ### FIM

@@ -27,6 +27,7 @@ Pesquise sobre os conceitos envolvidos neste hands-on.
 
 Na pasta do projeto, digite:
 >  -  dotnet restore
+> -   dotnet ef database update (Efetua o versionamento no banco, gerando/alterando as tabelas)
 >  -  dotnet build
 >  -  dotnet run
 
@@ -53,7 +54,6 @@ Digite:
 
 3. No terminal, digitar:
 > -    dotnet restore    - (opcional) util para baixar dependências (libs)
-> -    dotnet ef database update (Efetua o versionamento no banco, gerando/alterando as tabelas)
 > -    dotnet build      - (opcional) Verifica se há um erro de código
 e
 > -    dotnet run        - para rodar o projeto

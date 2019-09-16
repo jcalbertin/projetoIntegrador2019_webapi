@@ -18,9 +18,10 @@ Pesquise sobre os conceitos envolvidos neste hands-on.
 - Plugins:
     - C# for Visuaal Sudio Code (powered by OminSharp)
     - C# IDE Extensions (jchannon)
-- MS SQL Server ou MySQL 
+- MS SQL Server, MySQL ou SQLite 
 - Cliente de acesso ao BD de sua escolha
-- Postman
+- Postman (https://www.getpostman.com/downloads/)
+- SQLite Gerenciador (https://sqlitebrowser.org/dl/)
 
 ### Etapas para rodar o projeto a partir desse repositório:
 
@@ -45,12 +46,14 @@ Digite:
 
 2. No terminal, digitar:
 > -    dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+> -    dotnet add package Microsoft.EntityFrameworkCore.Sqlite
 > -    dotnet add package Microsoft.EntityFrameworkCore.Tools 
 
     Será adicionado o driver do banco MSSQL Server e a lib de geração de entidades do .net core, respectivamente.
 
 3. No terminal, digitar:
 > -    dotnet restore    - (opcional) util para baixar dependências (libs)
+> -    dotnet ef database update (Efetua o versionamento no banco, gerando/alterando as tabelas)
 > -    dotnet build      - (opcional) Verifica se há um erro de código
 e
 > -    dotnet run        - para rodar o projeto

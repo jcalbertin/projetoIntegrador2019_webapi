@@ -5,7 +5,7 @@ namespace projetoIntegrador2019_webapi.Servicos
 {
     public interface ITurmaService
     {
-         void Adicionar(Turma Turma);  
+         Turma Adicionar(Turma Turma);  
          List<Turma> ListarTodas();
          List<Turma> ListarPorCurso(string Curso);
          Turma ObterUma(int Id);

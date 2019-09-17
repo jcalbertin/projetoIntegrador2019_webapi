@@ -38,10 +38,11 @@ namespace projetoIntegrador2019_webapi.Controllers
         }
 
         [HttpPost]
+        [Produces("application/json")]
         public IActionResult Post(Turma Turma)
         {
-            this._service.Adicionar(Turma);
-            return Ok(); //retorna codigo 200
+            var id = this._service.Adicionar(Turma);
+            return Ok(id); //retorna codigo 200 e codigo
         }
 
     }

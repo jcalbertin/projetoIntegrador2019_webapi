@@ -14,10 +14,11 @@ namespace projetoIntegrador2019_webapi.Servicos
             this._contexto = contexto;
         }
 
-        public void Adicionar(Turma Turma)
+        public Turma Adicionar(Turma Turma)
         {
             _contexto.Add(Turma);
             _contexto.SaveChanges();
+            return Turma;
         }
 
         public List<Turma> ListarPorCurso(string Curso)
